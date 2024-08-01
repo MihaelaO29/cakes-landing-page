@@ -39,13 +39,12 @@ body {
 .nav_link {
     font-size: 16px;
     font-weight: 600;
-    transition: transform 250ms, opacity 400ms;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav_link:hover {
     transform: translateY(-10px);
     cursor: pointer;
-    color: rgb(172, 102, 11);
 }
 
 .content {
