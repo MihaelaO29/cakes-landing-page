@@ -30,20 +30,24 @@ body {
     }
 }
 
-.menu {
+.menu_img {
     @media screen and (min-width: 1100px) {
         display: none;
     }
 }
 
 .nav_link {
-    font-size: 16px;
+    position: relative;
     font-weight: 600;
-    transition: all 0.3s ease-in-out;
 }
 
-.nav_link:hover {
-    transform: translateY(-10px);
+.nav_link p {
+    margin: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav_link:hover p {
+    transform: translateY(-8px);
     cursor: pointer;
 }
 
